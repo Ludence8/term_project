@@ -107,7 +107,7 @@ public:
 			message = "너무 큰 값을 입력하였습니다. 다시 입력해주세요.";
 		}
 		else {
-			int location = currentPage + (arguInt1 - 1) * 74 + arguInt2;
+			int location = currentPage + (arguInt1 - 1) * 75 + arguInt2;
 			for (int k = 0; k < arguInt3; k++) {
 				wholeFile.erase(wholeFile.begin() + location);
 			}
